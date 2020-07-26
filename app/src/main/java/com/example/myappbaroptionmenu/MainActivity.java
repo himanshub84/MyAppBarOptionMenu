@@ -8,6 +8,7 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
 import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
@@ -54,5 +55,10 @@ public class MainActivity extends AppCompatActivity {
     public void FacebookOpen(MenuItem item) {
         Intent i3=new Intent(Intent.ACTION_VIEW, Uri.parse("http://facebook.com"));
         startActivity(i3);
+    }
+
+    public void LaunchSecondActivity(View view) {
+        Intent i=new Intent(this,SecondActivity.class);
+        startActivity(i);
     }
 }

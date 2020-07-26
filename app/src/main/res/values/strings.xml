@@ -6,4 +6,10 @@
     <string name="icon1">icon1</string>
     <string name="icon2">google</string>
     <string name="icon3">facebook</string>
+    <string name="secondtofirst">CLICK TO LAUNCH MAIN ACTIVITY</string>
+    <string name="firsttosecond">CLICK TO LAUNCH SECOND ACTIVITY</string>
+    <string name="subject1">ENGLISH</string>
+    <string name="subject2">HINDI</string>
+    <string name="subject3">MATHS</string>
+    <string name="subject4">SCIENCE</string>
 </resources>
