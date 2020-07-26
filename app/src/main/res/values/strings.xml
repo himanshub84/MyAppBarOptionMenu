@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">MyAppBarOptionMenu</string>
+    <string name="home">Home</string>
+    <string name="aboutus">AboutUs</string>
+    <string name="contact">Contact</string>
+    <string name="icon1">icon1</string>
+    <string name="icon2">google</string>
+    <string name="icon3">facebook</string>
+</resources>

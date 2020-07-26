@@ -1,0 +1,29 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<item android:id="@+id/Home"
+    android:title="@string/home" />
+<item android:id="@+id/AboutUs"
+    android:title="@string/aboutus" />
+<item android:id="@+id/Contact"
+android:title="@string/contact" />
+    <item android:id="@+id/Icon1"
+        android:title="@string/icon1"
+        android:icon="@drawable/insta"
+        android:orderInCategory="30"
+        app:showAsAction="always"
+        android:onClick="InstaOpen" />
+    <item android:id="@+id/Icon2"
+        android:title="@string/icon2"
+        android:icon="@drawable/google"
+        android:orderInCategory="30"
+        app:showAsAction="always"
+        android:onClick="GoogleOpen"/>
+    <item android:id="@+id/Icon3"
+        android:title="@string/icon3"
+        android:icon="@drawable/facebook"
+        android:orderInCategory="30"
+        app:showAsAction="always"
+        android:onClick="FacebookOpen"/>
+
+</menu>
+
